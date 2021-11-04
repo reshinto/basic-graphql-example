@@ -1,21 +1,5 @@
-## Settings that requires modification
-- Change project acronym at line 5 and 6
-> ./.husky/commitLint.ts
-- Change project acronym at line 5 and 6
-> ./.husky/branchLint.ts
-- Change the github pages url at line 5
-> ./package.json
-
-## After removing ```.git```
-- Install husky
-> yarn prepare
-- Re-install poetic
-> npx poetic
-- restore the following files to get back settings
-  - ```.eslintignore```
-	- ```.eslintrc.js```
-	- ```.prettierrc.js```
-	- ```tsconfig.json```
+# Add `.env` file
+> REACT_APP_GITHUB_TOKEN=somesampletoken
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
